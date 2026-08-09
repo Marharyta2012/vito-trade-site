@@ -1,2 +1,2 @@
-# vito-trade-site
+# vito.trade-site
 Товари з ЄС
