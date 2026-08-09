@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Гуртові поставки товарів європейського виробництва</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { color: #333; line-height: 1.6; background-color: #f8f9fa; }
+    
+    header { background: #004b87; color: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; }
+    header .logo { font-size: 1.5rem; font-weight: bold; }
+    header a.btn-contact { background: #ffc107; color: #000; padding: 0.5rem 1rem; text-decoration: none; border-radius: 4px; font-weight: bold; }
+
+    .hero { background: linear-gradient(rgba(0, 75, 135, 0.8), rgba(0, 75, 135, 0.8)), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80') center/cover; color: white; padding: 4rem 5%; text-align: center; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; margin-bottom: 2rem; }
+    .hero .cta-btn { background: #ffc107; color: #000; padding: 0.8rem 2rem; text-decoration: none; font-size: 1.1rem; border-radius: 5px; font-weight: bold; display: inline-block; }
+
+    .categories { padding: 3rem 5%; text-align: center; }
+    .categories h2 { margin-bottom: 2rem; color: #004b87; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .card { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .card h3 { margin-bottom: 0.5rem; color: #004b87; }
+
+    .benefits { background: #e9ecef; padding: 3rem 5%; }
+    .benefits h2 { text-align: center; margin-bottom: 2rem; color: #004b87; }
+
+    footer { background: #111; color: white; text-align: center; padding: 1.5rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">VITO TRADE MARKET</div>
+    <a href="#contact" class="btn-contact">Отримати прайс</a>
+  </header>
+
+  <section class="hero">
+    <h1>Прямі гуртові поставки товарів європейського виробництва </h1>
+    <p>Побутова хімія, засоби гігієни та продукти харчування за найкращими цінами для вашого бізнесу</p>
+    <a href="#contact" class="cta-btn">Замовити прайс-лист</a>
+  </section>
+
+  <section class="categories">
+    <h2>Наші категорії товарів</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>🧼 Побутова хімія</h3>
+        <p>Пральні порошки, гелі, засоби для миття посуду та прибирання від провідних брендів ЄС.</p>
+      </div>
+      <div class="card">
+        <h3>🧴 Засоби гігієни</h3>
+        <p>Шампуні, мило, догляд за тілом, дитяча гігієна та засоби догляду за ротовою порожниною.</p>
+      </div>
+      <div class="card">
+        <h3>🧀 Продукти харчування</h3>
+        <p>Кава, солодощі, соуси, бакалія та оригінальні європейські продукти довготривалого зберігання.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="benefits">
+    <h2>Чому обирають нас</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>100% Оригінал</h3>
+        <p>Товар прямо від постачальників з Німеччини, Польщі, Італії та інших країн ЄС.</p>
+      </div>
+      <div class="card">
+        <h3>Гнучкий гурт</h3>
+        <p>Вигідні умови як для дрібного гурту, так і для великих мереж.</p>
+      </div>
+      <div class="card">
+        <h3>Швидка доставка</h3>
+        <p>Оперативна відправка.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Зв'яжіться з нами: +380 (98) 025-65-80 | +380 (68) 768-67-61  </p>
+    <p>&copy; 2026 VITO TRADE MARKET. Всі права захищено.</p>
+  </footer>
+
+</body>
+</html>
